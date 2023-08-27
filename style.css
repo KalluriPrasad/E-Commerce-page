@@ -1,0 +1,243 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: #181D31;
+}
+.header {
+    width: 100%;
+    height: 60px;
+    background-color: #FB6542;
+}
+.header h3 {
+    color: white;
+    padding: 15px 0px 0px 55px;
+    font-size: 1.4rem;
+    float: left;
+}
+.header ul {
+    float: right;
+    list-style: none;
+    padding: 15px 0px 0px 55px;
+    font-size: 1.2rem;
+}
+.header ul li {
+    float: left;
+}
+.header ul li a{
+    text-decoration: none;
+    color: white;
+    margin: 15px;
+}
+.container {
+    float: left;
+    margin: 5px 0px 25px 85px;
+    width: 60%;
+}
+.image1{
+    border: 1px solid white;
+    border-radius: 5px;
+    float: left;
+    height: 330px;
+    width: 30%;
+    margin: 15px;
+    background-color: white;
+}
+.image2{
+    display: inline;
+    border: 1px solid white;
+    border-radius: 5px;
+    float: left;
+    height: 330px;
+    width: 30%;
+    margin: 15px;
+    background-color: white;
+}
+.image3{
+    display: inline;
+    border: 1px solid white;
+    border-radius: 5px;
+    float: left;
+    height: 330px;
+    width: 30%;
+    margin: 15px;
+    background-color: white;
+}
+.image4{
+    display: inline;
+    float: left;
+    border: 1px solid white;
+    border-radius: 5px;
+    height: 330px;
+    width: 30%;
+    margin: 15px;
+    background-color: white;
+}
+.row1 h1{
+    color: white;
+    margin: 25px 0px 0px 25px;
+}
+.image1 img {
+    border-radius: 5px 5px 0px 0px;
+    width: 228px;
+}
+.image2 img {
+    border-radius: 5px 5px 0px 0px;
+    width: 229px;
+}
+.image3 img {
+    border-radius: 5px 5px 0px 0px;
+    width: 228px;
+}
+.image4 img {
+    border-radius: 5px 5px 0px 0px;
+    width: 229px;
+}
+.image1 h3{
+    font-size: 1.5rem;
+    margin: 25px 0px 15px 30px;
+    font-weight: bold;
+    font-weight: 500;
+}
+.image1 p {
+    font-size: 1.2rem;
+    margin: 5px 0px 10px 30px;
+}
+.image1 button {
+    width: 120px;
+    height: 35px;
+    margin: 5px 0px 0px 30px;
+    background-color: #FB6542;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.image2 h3{
+    font-size: 1.5rem;
+    margin: 25px 0px 15px 30px;
+    font-weight: bold;
+    font-weight: 500;
+}
+.image2 p {
+    font-size: 1.2rem;
+    margin: 5px 0px 10px 30px;
+}
+.image2 button {
+    width: 120px;
+    height: 35px;
+    margin: 5px 0px 0px 30px;
+    background-color: #FB6542;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.image3 h3{
+    font-size: 1.5rem;
+    margin: 25px 0px 15px 30px;
+    font-weight: bold;
+    font-weight: 500;
+}
+.image3 p {
+    font-size: 1.2rem;
+    margin: 5px 0px 10px 30px;
+}
+.image3 button {
+    width: 120px;
+    height: 35px;
+    margin: 5px 0px 0px 30px;
+    background-color: #FB6542;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.image4 h3{
+    font-size: 1.5rem;
+    margin: 25px 0px 15px 30px;
+    font-weight: bold;
+    font-weight: 500;
+}
+.image4 p {
+    font-size: 1.2rem;
+    margin: 5px 0px 10px 30px;
+}
+.image4 button {
+    width: 120px;
+    height: 35px;
+    margin: 5px 0px 0px 30px;
+    background-color: #FB6542;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.image1 button:hover {
+
+    background-color: #626364;
+}
+.image2 button:hover {
+
+    background-color: #626364;
+}
+.image3 button:hover {
+
+    background-color: #626364;
+}
+.image4 button:hover {
+
+    background-color: #626364;
+}
+.scart {
+    width: 25%;
+    margin: 35px 85px 0px 0px;
+    float: right;
+}
+.scart h1{
+    padding-bottom: 15px;
+     color: white;
+}
+.product {
+    font-weight: 100;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    height: 100px;
+    background-color: white;
+}
+.product p{
+       
+        padding: 10px 25px ;
+
+}
+.total{
+    padding: 25px 0px;
+}
+.total h1 {
+       font-weight: 500;
+       font-size: 1.8rem;
+}
+.total button {
+    margin-top: 10px;
+}
+.total button {
+    background-color: #FB6542;
+    width: 320px;
+    height: 35px;
+    font-size: 1rem;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+.total button:hover{
+    background-color: #626364;
+}
